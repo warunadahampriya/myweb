@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waruna Dahampriya | UX & UI Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide-icons"></script>
+    <style>
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .gradient-animation {
+            background-size: 200% 200%;
+            animation: gradientFlow 10s ease infinite;
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white selection:bg-blue-500 selection:text-white">
+    <div class="relative">
+        <!-- Navigation -->
+        <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900/70 backdrop-blur-md">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                    WarunaD.
+                </div>
+                <div class="space-x-6">
+                    <a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a>
+                    <a href="#experience" class="text-gray-300 hover:text-white transition-colors">Experience</a>
+                    <a href="#skills" class="text-gray-300 hover:text-white transition-colors">Skills</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+<section id="home" class="relative h-screen flex items-center justify-center text-center">
+    <div class="absolute inset-0 gradient-animation bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 opacity-70"></div>
+    <div class="relative z-10 container mx-auto px-4">
+        
+        <div class="bg-gray-800/50 backdrop-blur-lg rounded-full mx-auto mb-6 w-48 h-48 flex items-center justify-center overflow-hidden shadow-lg">
+            
+            <img src="D:\UIUX\warunaweb\wd.jpg" alt="Waruna Dahampriya" class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+            Waruna Dahampriya
+        </h1>
+        <p class="text-xl text-gray-300 mb-8">
+            UX Designer | UI Designer | MIS UG
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
+                Get in Touch
+            </a>
+            <a href="https://www.behance.net/warunadahampr" target="_blank" class="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
+                My Portfolio
+            </a>
+        </div>
+    </div>
+</section>
+
+
+        <!-- About Section -->
+        <section id="about" class="container mx-auto px-4 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                        Professional Profile
+                    </h2>
+                    <p class="text-gray-300 mb-4">
+                        As a dynamic UX & UI Designer with a robust background in Management Information Systems, I specialize in creating user-centered digital experiences that seamlessly blend creativity, technical expertise, and business strategy.
+                    </p>
+                    <p class="text-gray-300">
+                        My unique approach stems from a diverse professional journey, spanning client management, business administration, and design. I'm passionate about transforming complex business challenges into intuitive, visually compelling digital solutions.
+                    </p>
+                </div>
+                <div>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gray-800 p-6 rounded-lg text-left hover:scale-105 transition-transform">
+                            <i data-lucide="target" class="mx-auto mb-4 text-blue-500" size="48"></i>
+                            <h3 class="text-xl font-semibold mb-2 text-blue-500">Design Focus</h3>
+                            <p class="text-gray-400">User-Centric Digital Experiences <br> Usability in Designs <br> Consistency in Designs <br> Clear Visual Hierarchy <br> Performance Optimization <br> Responsive and Adaptive Designs <br> Prototyping and Iterative Testing </p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg text-left hover:scale-105 transition-transform">
+                            <i data-lucide="briefcase" class="mx-auto mb-4 text-purple-500" size="48"></i>
+                            <h3 class="text-xl font-semibold mb-2 text-purple-500">Expertise</h3>
+                            <p class="text-gray-400">IT Project Management <br> IT Business Analysis <br> Business Administration <br> User Research & Analysis <br> Strategic Problem Solving <br> Systems Analysis and Design <br> Client Handling and Relationship Building</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container mx-auto px-4 md:px-32 py-20 bg-gray-800">
+            <h2 class="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                Professional Journey
+            </h2>
+            <div class="space-y-8">
+                <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-blue-500 hover:bg-gray-800 transition-colors">
+                    <h3 class="text-xl font-semibold text-blue-500">UX/UI Design - Internship</h3>
+                    <p class="text-gray-400 mb-2">Current Position | 2024</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Collaborating on the visual aesthetic, including typography, colors, and layout</li>
+                        <li>Developing personas, empathy maps, and user journey maps</li>
+                        <li>Focusing on creating intuitive, accessible, and engaging interfaces</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-purple-500 hover:bg-gray-800 transition-colors">
+                    <h3 class="text-xl font-semibold text-purple-500">Business Administration | Second Line Support - Internship</h3>
+                    <p class="text-gray-400 mb-2">AIA Insurance Lanka Limited | 6 Months</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Enhanced client handling, ensuring empathetic and effective interactions</li>
+                        <li>Sharpened problem-solving abilities by addressing complex client and operational issues</li>
+                        <li>Strengthened communication skills, ensuring clarity in both internal and external discussions.</li>
+                    </ul>
+                </div>
+		 <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-pink-500 hover:bg-gray-800 transition-colors">
+                    <h3 class="text-xl font-semibold text-pink-500">Associate Wealth Planner</h3>
+                    <p class="text-gray-400 mb-2">AIA Insurance Lanka Limited | 2 Years</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Specialized in client relationship management</li>
+                        <li>Developed tailored financial solutions</li>
+                        <li>Enhanced problem-solving and communication skills</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+	 <!-- Education Section -->
+     <section id="education" class="container mx-auto px-4 md:px-32 py-20 bg-gray-800">
+            <h2 class="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Education & Certifications</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-blue-500 hover:bg-gray-800 transition-colors">
+                    <h3 class="text-xl font-semibold text-blue-500 mb-2">Bachelor of Science Degree</h3>
+                    <p class="text-gray-300 mb-2">BSc in Management Information Systems (Special)</p>
+                    <p class="text-gray-300 mb-2">Faculty of Computing | Final Year</p>
+                    <p class="text-gray-300">NSBM Green University | Sri Lanka</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-purple-500 hover:bg-gray-800 transition-colors">
+                    <h3 class="text-xl font-semibold text-purple-500 mb-2">Additional Qualifications</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>UX & UI Design Bootcamp (2024) with Mr. Rasika Mahindasiri</li>
+                        <li>Higher Diploma in English (2023)</li>
+                        <li>GCE Advanced Level - Engineering Technology with ICT (2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container mx-auto px-4 py-20">
+            <h2 class="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                Technical Skills
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-500">Design Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Figma</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Photoshop</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Canva</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">VS Code</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Illustrator</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Adobe XD</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">MS Excel</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Drow.oi</span>
+                        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm">Visual Studio</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-500">UX/UI Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">User Research</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">Persona</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">Empathy Mapping</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">UIUX</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">User Journey Mapping</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">Wireframes</span>
+                        <span class="bg-purple-900 text-purple-300 px-3 py-1 rounded-full text-sm">Prototypes</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-pink-500">Core Competencies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-pink-900 text-pink-300 px-3 py-1 rounded-full text-sm">Project Management</span>
+                        <span class="bg-pink-900 text-pink-300 px-3 py-1 rounded-full text-sm">Business Analysis</span>
+                        <span class="bg-pink-900 text-pink-300 px-3 py-1 rounded-full text-sm">UI Engineering</span>
+                        <span class="bg-pink-900 text-pink-300 px-3 py-1 rounded-full text-sm">Business Operations</span>
+                        <span class="bg-pink-900 text-pink-300 px-3 py-1 rounded-full text-sm">Business Administration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto px-4 md:px-32 py-20 bg-gray-800">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                    Let's Connect
+                </h2>
+                <p class="text-gray-400 mb-8">Interested in collaboration or discussing potential opportunities?</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="http://www.linkedin.com/in/warunadahampriya" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl flex items-center">
+                        <i data-lucide="linkedin" class="mr-2"></i> LinkedIn Profile
+                    </a>
+                    <a href="https://www.behance.net/warunadahampr" target="_blank" class="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl flex items-center">
+                        <i data-lucide="dribbble" class="mr-2"></i> Behance Portfolio
+                    </a>
+                    <a href="D:\UIUX\warunaweb\Waruna Dahampriya CV UXUI Intern.pdf" target="_blank" class="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl flex items-center">
+                        <i data-lucide="dribbble" class="mr-2"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 text-center py-4">
+        <p>&copy; 2024 Waruna Dahampriya. All Rights Reserved.</p>
+        <div class="space-x-4 mt-2">
+            <a href="http://www.linkedin.com/in/warunadahampriya" target="_blank" class="hover:text-white">LinkedIn</a>
+            <a href="https://github.com/warunadahampriya" target="_blank" class="hover:text-white">GitHub</a>
+            <a href="@qWARU_N" target="_blank" class="hover:text-white">Twitter</a>
+        </div>
+    </footer>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
